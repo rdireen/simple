@@ -12,6 +12,7 @@ namespace simple
 			int r = 0;
 
 			Console.WriteLine ("Here is a calculator");
+
 			Console.WriteLine ("Enter x: ");
 			var line_x = Console.ReadLine ();
 			Console.WriteLine ("Enter x: ");
