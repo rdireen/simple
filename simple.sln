@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "TestLibrary\C
 EndProject
 Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Packages", "Packages\Packages.mdproj", "{31CFDC79-BCB6-4F7C-99CF-8F01BDC8B9A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEverythingHere", "TestEverythingHere\TestEverythingHere.csproj", "{5CECD1ED-969E-418B-824B-0F72A0CCE61D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{398EE1E4-7CE2-4E25-BA7B-C50ADF17989F}.Debug|x86.Build.0 = Debug|Any CPU
 		{398EE1E4-7CE2-4E25-BA7B-C50ADF17989F}.Release|x86.ActiveCfg = Release|Any CPU
 		{398EE1E4-7CE2-4E25-BA7B-C50ADF17989F}.Release|x86.Build.0 = Release|Any CPU
+		{5CECD1ED-969E-418B-824B-0F72A0CCE61D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5CECD1ED-969E-418B-824B-0F72A0CCE61D}.Debug|x86.Build.0 = Debug|Any CPU
+		{5CECD1ED-969E-418B-824B-0F72A0CCE61D}.Release|x86.ActiveCfg = Release|Any CPU
+		{5CECD1ED-969E-418B-824B-0F72A0CCE61D}.Release|x86.Build.0 = Release|Any CPU
 		{81EB1D50-59B0-443F-BD9E-5ABE9DC2A9B9}.Debug|x86.ActiveCfg = Debug|x86
 		{81EB1D50-59B0-443F-BD9E-5ABE9DC2A9B9}.Debug|x86.Build.0 = Debug|x86
 		{81EB1D50-59B0-443F-BD9E-5ABE9DC2A9B9}.Release|x86.ActiveCfg = Release|x86
