@@ -1,0 +1,6 @@
+*.userprefs
+*.suo
+app.config
+bin/
+obj/
+packages/

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ItemType>PackagingProject</ItemType>
+    <ProjectGuid>{31CFDC79-BCB6-4F7C-99CF-8F01BDC8B9A5}</ProjectGuid>
+    <Packages>
+      <Packages>
+        <Package name="MSBuild (Visual Studio 2012) Sample Sources">
+          <Builder targetFile="..\..\simple_packages\simple_source.tar.gz" format="MonoDevelop.Projects.FileFormat" ctype="SourcesZipPackageBuilder">
+            <ChildEntries>
+              <SolutionItemReference path="..\simple\simple.csproj" />
+              <SolutionItemReference path="..\TestLibrary\TestLibrary.csproj" />
+              <SolutionItemReference path="Packages.mdproj" />
+            </ChildEntries>
+            <RootEntry path="..\simple.sln" id=":root:" />
+          </Builder>
+        </Package>
+        <Package name="Linux Binaries">
+          <Builder targetFile="..\..\simple_packages\simple.tar.gz" platform="Linux" configuration="Release|x86" ctype="BinariesZipPackageBuilder">
+            <ChildEntries>
+              <SolutionItemReference path="..\simple\simple.csproj" />
+              <SolutionItemReference path="..\TestLibrary\TestLibrary.csproj" />
+            </ChildEntries>
+            <RootEntry path="..\simple.sln" id=":root:" />
+          </Builder>
+        </Package>
+      </Packages>
+    </Packages>
+  </PropertyGroup>
+</Project>
