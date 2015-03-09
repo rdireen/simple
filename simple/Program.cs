@@ -2,7 +2,7 @@
 using Calculator;
 
 
-/*! \mainpage Main page for `simple` project
+/*! \mainpage Main page for simple project
  *
  * \section refer_by_this This is a section I can start
  *
