@@ -1,6 +1,20 @@
 ﻿using System;
 using Calculator;
 
+
+/*! \mainpage Main page for `simple` project
+ *
+ * \section refer_by_this This is a section I can start
+ *
+ * Right here i can put some stuff.
+ *
+ * \section install_sec Installation
+ *
+ * \subsection step1 Step 1: Opening the box
+ *
+ * etc...
+ */
+
 namespace simple
 {
 	class MainClass

@@ -1,6 +1,8 @@
 *.userprefs
 *.suo
+*~
 app.config
 bin/
 obj/
+build/
 packages/
